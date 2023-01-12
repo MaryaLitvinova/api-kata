@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: 'Amatic SC';
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+main {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+.form {
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  color: white;
+  font-size: 30px;
+  width: 350px;
+  height: 500px;
+  position: relative;
+  margin:10px;
+}
+.sign_list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+input {
+  display: block;
+  margin: 10px auto;
+  border: none;
+  height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 200px;
+  font-family: 'Amatic SC';
+  color: black;
+  padding: 5px;
+  outline: none;
+}
+h2 {
+  text-align: center;
+  margin: 0;
+}
+p {
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  width: 340px;
+  white-space: pre-wrap;
+}
+button {
+  margin: 0 auto;
+  display: block;
+  width: 100px;
+  font-family: 'Amatic SC';
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  font-size: 30px;
+  outline: none;
+  border: none;
+  height: 100px;
+  background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);;
+  margin-top: 10px;
+}
+.get {
+  background: radial-gradient(circle, rgba(102,230,107,1) 29%, rgba(35,77,37,1) 100%);;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  font-size: 20px;
+  display: flex;
+  position: relative;
+  color:white
+}
